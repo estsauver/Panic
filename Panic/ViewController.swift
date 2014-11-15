@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var outputLabel: UILabel!
+    
+    @IBAction func panicButtonPressed(sender: UIButton) {
+        outputLabel.text = "Please do  not press this button again"
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
