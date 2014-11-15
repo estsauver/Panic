@@ -1,3 +1,4 @@
 language: objective-c
 xcode_project: Panic.xcodeproj # path to your xcodeproj folder
 xcode_scheme: Panic
+xcode_sdk: iphonesimulator8.0
